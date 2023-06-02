@@ -15,7 +15,7 @@ const BlogForm = () => {
       alert('Please enter a title.');
       return;
     }
-
+//
     if (description.trim() === '') {
       alert('Please enter a description.');
       return;
@@ -26,7 +26,7 @@ const BlogForm = () => {
       return;
     }
 
-    // Form is valid, you can submit the data to the server here
+    // Form is valid, you can submit the data to the server
     console.log('Title: ', title);
     console.log('Description: ', description);
     console.log('Content: ', content);
