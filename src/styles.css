@@ -1,0 +1,47 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type='text'],
+  button[type='submit'] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button[type='submit'] {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .ql-container {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .container {
+      padding: 10px;
+    }
+  }
+  
